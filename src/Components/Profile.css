@@ -71,8 +71,8 @@ font-weight: bolder;
     height: 100vh;
    }
    .prof{
-    padding: 10px;
-    margin-top: 30px;
+    padding: 5px;
+    margin-top: 20px;
    }
    .profpic{
     height:100px ;
@@ -80,8 +80,7 @@ font-weight: bolder;
    }
    .daily-activity{
     align-items: center;
-    border:20px;
-    border-color: black;
+    
    }
    .daily-head{
     margin-left: 0px;
@@ -89,6 +88,8 @@ font-weight: bolder;
    }
    .transac{
     margin-left: 80px;
+    padding: 5px;
+
    }
 
 }
