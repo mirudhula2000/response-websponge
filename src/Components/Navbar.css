@@ -22,7 +22,7 @@
  @media screen and (max-width:480px) {
     .nav-bar{
         height: 40px;
-        width: 72vw;
+        width: 100vw;
         position: fixed;
         bottom: 0;
         z-index: 1;

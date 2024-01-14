@@ -67,7 +67,7 @@ font-weight: bolder;
 
 @media screen and (max-width:480px) {
    .profile{
-    width: 75vw;
+    width: 100vw;
     height: 75vh;
    }
    .prof{
