@@ -1,0 +1,47 @@
+.nav-bar{
+    height: 100vh;
+    width: 50px;
+    background-color: gainsboro;
+    
+}
+.nav-bar div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-logo{
+    width: 35px;
+    height: 35px;
+}
+.img-search{
+    width: 30px;
+    height: 30px;
+}
+ @media screen and (max-width:480px) {
+    .nav-bar{
+        height: 40px;
+        width: 72vw;
+        position: fixed;
+        bottom: 0;
+        z-index: 1;
+        overflow-x: hidden;
+
+    }
+    .nav-bar div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .div1{
+        display: flex;
+        flex-direction: row;
+        justify-content:center ;
+        align-items: center;
+    }
+
+    
+    
+ }

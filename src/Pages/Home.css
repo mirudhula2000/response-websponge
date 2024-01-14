@@ -1,0 +1,14 @@
+.home{
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (max-width:480px){
+    .home{
+        display: flex;
+    flex-direction: column;
+    }
+    
+
+
+    
+}

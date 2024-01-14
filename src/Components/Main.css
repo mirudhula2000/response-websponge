@@ -1,0 +1,71 @@
+.main{
+    background-color:gainsboro;
+    width: 750px;
+    height: 100vh;
+    margin-left: 10px;
+}
+.heading{
+    text-align: left;
+    font-size: x-large;
+    color: darkcyan;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+}
+.text{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.sub-heading{
+    font-size: 15px;
+    font-weight: 600;
+
+}
+.hr{
+    background-color: brown;
+    height: 2px;
+    width: 150px;
+}
+
+
+
+@media screen and (max-width:480px){
+    .main{
+        margin-top: 10px;
+        background-color:gainsboro;
+        width: 73vw;
+        height: 60vh;
+        margin-left: 5px;
+    }
+    .heading{
+        text-align: left;
+        font-size: medium;
+        color: darkcyan;
+        font-weight: 600;
+        font-family:'Courier New', Courier, monospace;
+        padding: 5px;
+    }
+    .text{
+        font-size: 10px;
+        font-weight: bold;
+    
+    }
+    .sub-heading{
+        font-size: 5px;
+        font-weight: 600;
+    
+    }
+    .hr{
+        background-color: brown;
+        height: 2px;
+        width: 70px;
+    }
+    .income-info{
+        gap:0px;
+        margin-left: 0px;
+        padding: 2px;
+      
+      
+    }
+}
